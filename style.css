@@ -29,3 +29,8 @@ a {
 a:hover {
   color: oklch(55.93% 0.0423 235.55);
 }
+h1,
+h6,
+ul {
+  text-align: left;
+}
