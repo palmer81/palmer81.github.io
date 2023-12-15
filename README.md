@@ -9,4 +9,4 @@ My projects page -  https://palmer81.github.io/
 - Video Host: http://www.darknight65.byethost7.com/video/
 - Static page in front of Video host: http://www.darknight65.byethost7.com/
 - Blog: https://scottpalmercom.wordpress.com
-- [Resume] (https://palmer81.github.io/Resume)
+- [Resume](https://palmer81.github.io/Resume)
