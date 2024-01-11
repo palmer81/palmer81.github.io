@@ -12,6 +12,8 @@ img {
 }
 img.profile {
   border-radius: 90px;
+  width: 60px;
+  height: 60px;
 }
 h1#name {
   display: inline-block;
