@@ -10,6 +10,9 @@ img {
   vertical-align: middle;
   margin: 10px 0px 10px 10px;
 }
+img.profile {
+  border-radius: 90px;
+}
 h1#name {
   display: inline-block;
   vertical-align: middle;
