@@ -19,3 +19,5 @@ My GitHub Page -  https://github.com/palmer81
 - Static page in front of Video host: http://www.darknight65.byethost7.com/
 - Blog: https://scottpalmercom.wordpress.com
 - [Resume](https://palmer81.github.io/Resume)
+
+If you are interested in commuicating about a project or technology, please contact me @ <a href="mailto:palmer.sr@gmail.com">palmer.sr@gmail.com</a> or call me at 630-725-8112. I will provide a free demonstration as soon as possible with request. I also will provide unlimited iterations with request.
