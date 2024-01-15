@@ -1,7 +1,8 @@
-<img
+<a href="https://techguppy.slack.com/" target="_blank"
+    rel="noopener noreferrer"><img
           src="./cropped-Scott-Palmer.png"
           alt="Picture of Scott Palmer (Me)"
-          width="90" height="90"/>
+          width="90" height="90"/></a>
 
 # palmer81.github.io
 
