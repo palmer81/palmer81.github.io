@@ -1,11 +1,6 @@
 <div style="text-align:right;font-size:x-large;font-weight:bold;">Scott R Palmer</div>
 <div style="text-align:right;">Plainfield, IL 60586– (630) 725-8112 (C) – <a href="mailto:palmer.sr@gmail.com">palmer.sr@gmail.com</a></div>
 
-<div style="font-weight:bold;">Career Focus</div>
-<ul style="list-style-type: none;">
-<li>To obtain freelance work creating a web site with bootstrap features for commmerce and description of products/company</li>
-</ul>
-
 <div style="font-weight:bold;">Computer Experience</div>
 <ul>
 <li>Interface design and implementation</li>
