@@ -1,7 +1,7 @@
 <div style="text-align:right;font-size:x-large;font-weight:bold;">Scott R Palmer</div>
 <div style="text-align:right;">Plainfield, IL 60586– (630) 725-8112 (C) – <a href="mailto:palmer.sr@gmail.com">palmer.sr@gmail.com</a></div>
 
-<div style="font-weight:bold;">Computer Experience</div>
+<h3 style="font-weight:bold;">Computer Experience</h3>
 <ul>
 <li>Interface design and implementation</li>
 <li>Fluent in C and Java</li>
@@ -12,13 +12,13 @@
 <li>Graphics programming with POVRAY and JOGL</li>
 </ul>
 
-<div style="font-weight:bold;">Certificates (in consideration)</div>
+<h3 style="font-weight:bold;">Certificates (in consideration)</h3>
 <ul>
 <li>World Wide Web Consortium: HTML, HTML5, CSS, JavaScript, PHP, XML and ASP</li>
 <li>Oracle: Java 7 Programmer I and II</li>
 </ul>
 
-<div style="font-weight:bold;">Military Accomplishments</div>
+<h3 style="font-weight:bold;">Military Accomplishments</h3>
 <ul>
 <li>Contributed to an annual 50% increase in productivity through improvements in
   operations, quality, safety and administration.</li>
@@ -29,7 +29,7 @@
 <li>Confidential Security Clearance</li>
 </ul>
 
-<div style="font-weight:bold;">Experience</div>
+<h3 style="font-weight:bold;">Experience</h3>
 <ul style="list-style-type: none;">
   <li style="display:flex;justify-content:space-between;">
     <span>RSVP Tooling, Inc, Joliet, IL</span>
@@ -160,7 +160,7 @@
   </ul>
 </ul>
 
-<div style="font-weight:bold;">Work History</div>
+<h3 style="font-weight:bold;">Work History</h3>
 <ul style="list-style-type: none;">
   <li style="display:flex;justify-content:space-between;">
     <span>One Stop, Murphysboro, IL</span>
@@ -202,7 +202,7 @@
   </ul>
 </ul>
 
-<div style="font-weight:bold;">Education</div>
+<h3 style="font-weight:bold;">Education</h3>
 <ul style="list-style-type: none;">
   <li style="font-weight:bold;">Southern Illinois University, Carbondale, IL</li>
   <li style="font-weight:bold;">Bachelor of Science: Computer Science, December 2010
