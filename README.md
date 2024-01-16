@@ -1,8 +1,14 @@
+<h1>Scott Palmer</h1>
 <a href="https://techguppy.slack.com/" target="_blank"
     rel="noopener noreferrer"><img
           src="./cropped-Scott-Palmer.png"
           alt="Picture of Scott Palmer (Me)"
-          width="90" height="90"/></a>
+          width="100" height="100"/></a>
+
+
+I am in the market for an entry level programming position. I like to program with Java, PHP, CSS, HTML, JavaScript, Python, C/C++, and I always enjoy learning something new. My last position I did documentation for catalogs and instructions which consisted of making PDFs and HTML documents. The instructions and catalogs were for industrial tooling, and I assisted in maintaining an inventory system and I made several demonstration programs in Java and HTML/JavaScript. I would enjoy helping with documentation and refactoring in any language. If you like a demonstration of any skill, please contact me by email <a href="mailto:palmer.sr@gmail.com">palmer.sr@gmail.com</a> or call me at 630-725-8112 or with <a href="https://techguppy.slack.com/" target="_blank"  rel="noopener noreferrer">Slack</a>.  
+
+Also, in the market for freelancing! I will code a website from scratch in a few days and I also can help with any task such as debugging, refactoring, commenting, or completing any task. You can connect with here at <a href=”https://www.fiverr.com/scott_r_palmer?public_mode=true” target="_blank"  rel="noopener noreferrer”>My Fiverr Profile</a>.
 
 # palmer81.github.io
 
