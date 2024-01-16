@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://palmer81.com/sitemap.xml
+Sitemap: http://palmer81.com/sitemap.xml
