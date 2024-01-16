@@ -1,7 +1,19 @@
 body {
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  font-size: x-large;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px 0px 10px;
+}
+aside a {
+  margin: 10px 0px 0px 10px;
+}
+aside img {
   margin: 0;
 }
 img {
@@ -12,24 +24,24 @@ img {
 }
 img.profile {
   border-radius: 90px;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
 }
 h1#name {
   display: inline-block;
   vertical-align: middle;
   margin: 0px 0px 0px 5px;
 }
-div {
+main {
+  display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: oklch(22.93% 0.0423 235.55);
 }
 a:hover {
   color: oklch(55.93% 0.0423 235.55);
