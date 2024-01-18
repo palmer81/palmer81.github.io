@@ -6,8 +6,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta
+      name="description"
+      content="Scott Palmer's Resume -  Currently in the market for and IT job which can be help desk I would prefer software design or entry level programmings. My resume highights most of my skills, please me know if you like a demostration of any skill." />
+    <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./../style.css" />
     <title>Resume - Scott Palmer</title>
     <link
       rel="shortcut icon"
@@ -23,21 +29,15 @@
           justify-content: space-between;
         }
       }
-      @media only screen and (max-width: 600px) {
-        li,
-        span {
-          display: block;
-        }
-      }
     </style>
   </head>
-  <body style="margin: 30px; display: flex">
+  <body>
     <a
       href="https://techguppy.slack.com/"
       target="_blank"
       rel="noopener noreferrer">
       <img
-        src="./Octicons-mark-github.svg"
+        src="./../img/Octicons-mark-github.svg"
         alt="GitHub Icon" />
     </a>
     <h1 id="name">Scott Palmer</h1>
@@ -48,19 +48,24 @@
           target="_blank"
           rel="noopener noreferrer">
           <img
-            src="./cropped-Scott-Palmer.png"
+            src="./../img/cropped-Scott-Palmer.png"
             alt="Picture of Scott Palmer (Me)"
             class="profile" />
         </a>
-        <a href="https://palmer81.github.io/">Home</a>
-        <a
-          href="https://palmer81.github.io/resume/"
-          target="_blank"
-          rel="noopener noreferrer">
-          Resume
-        </a>
+        <a href="./../">Home</a>
+        <div style="display: inline-flex">
+          <a href="./resume/"> Resume </a>
+          <a
+            href="./pdf/"
+            download="Resume-ScottPalmer.pdf"
+            ><img
+              src="./../img/file-arrow-down.svg"
+              alt="Download PDF"
+              style="height: fit-content; display: inline-block"
+          /></a>
+        </div>
       </aside>
-      <article style="margin: auto; max-width: 900px">
+      <div style="margin: auto; max-width: 900px">
         <div style="text-align: right; font-size: x-large; font-weight: bold">
           Scott R Palmer
         </div>
@@ -398,7 +403,7 @@
             >Computer Architecture, Computer Security and Cloud Computing
           </span>
         </div>
-      </article>
+      </div>
     </main>
   </body>
 </html>

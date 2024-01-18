@@ -34,10 +34,26 @@ h1#name {
 }
 main {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 1200px;
+  margin: auto;
+}
+div.banner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 10px 10px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 10px;
+}
+div.banner a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  display: contents;
+}
+div.banner a:hover {
+  color: lemonchiffon;
 }
 a {
   text-decoration: none;
@@ -50,4 +66,18 @@ h1,
 h6,
 ul {
   text-align: left;
+}
+ul.logos {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media only screen and (max-width: 1400px) {
+  main {
+    position: sticky;
+    max-width: 1200px;
+    min-width: 600px;
+    width: auto;
+  }
 }
