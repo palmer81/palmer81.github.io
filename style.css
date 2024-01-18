@@ -27,6 +27,10 @@ img.profile {
   width: 100px;
   height: 100px;
 }
+img.sideLogo {
+  width: 100px;
+  height: auto;
+}
 h1#name {
   display: inline-block;
   vertical-align: middle;
