@@ -59,6 +59,13 @@ div.banner a {
 div.banner a:hover {
   color: lemonchiffon;
 }
+div.twitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px 0 0 0;
+}
 a {
   text-decoration: none;
   color: oklch(22.93% 0.0423 235.55);
