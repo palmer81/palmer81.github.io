@@ -38,7 +38,8 @@ h1#name {
 }
 main {
   display: flex;
-  width: 1200px;
+  flex-direction: column;
+  width: 100%;
   margin: auto;
 }
 div.banner {

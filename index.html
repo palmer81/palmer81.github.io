@@ -21,387 +21,463 @@
       content="width=device-width, initial-scale=1.0" />
     <title>Project Page - Scott Palmer</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link
       rel="stylesheet"
       href="./style.css" />
     <link
       rel="shortcut icon"
       href="https://favicon.twenty.com/github.com/128"
       type="image/x-icon" />
-    <style>
-      div.title {
-        font-weight: bold;
-      }
-      @media only screen and (min-width: 600px) {
-        li.locationTime {
-          display: flex;
-          justify-content: space-between;
-        }
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   </head>
   <body>
-    <a
-      href="https://palmer81.github.io/"
-      target="_blank"
-      rel="noopener noreferrer">
-      <img
-        src="./img/Octicons-mark-github.svg"
-        alt="GitHub Icon" />
-    </a>
-    <h1 id="name">Scott Palmer</h1>
-    <main>
-      <aside>
-        <a
-          href="https://techguppy.slack.com/"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/cropped-Scott-Palmer.png"
-            alt="Picture of Scott Palmer (Me)"
-            class="profile" />
-        </a>
-        <a href="./">Home</a>
-        <div style="display: inline-flex">
-          <a href="./resume/"> Resume </a>
-          <a
-            href="https://github.com/palmer81/palmer81.github.io/blob/main/pdf/Resume-ScottPalmer.pdf"
-            ><img
-              src="./img/file-arrow-down.svg"
-              alt="Download PDF"
-              style="height: fit-content; display: inline-block"
-          /></a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <!-- Navbar content goes here -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-start bg-dark"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!-- Offcanvas content goes here -->
+        <div class="offcanvas-header bg-dark">
+          <h5
+            class="offcanvas-title text-light"
+            id="offcanvasNavbarLabel">
+            Menu
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset btn-close-white"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
-        <h5 style="margin-block-end: 0">Contact Me</h5>
-        <h6 style="margin-block-start: 0; margin-block-end: 0">Email</h6>
-        <a
-          href="mailto:palmer.sr@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Gmail-Logo.png"
-            class="sideLogo"
-            alt="Gmail" />
-        </a>
-        <a
-          href="mailto:palmer.sr@outlook.com"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Outlook-Logo.png"
-            class="sideLogo"
-            alt="Outlook" />
-        </a>
-        <a
-          href="mailto:spalms65@hotmail.com"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Hotmail-Logo.png"
-            class="sideLogo"
-            alt="Hotmail" />
-        </a>
-        <a
-          href="mailto:spalms65@siu.edu"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Southern-Illinois-Salukis-Logo.png"
-            class="sideLogo"
-            alt="Saluki SIU Carbondale, IL" />
-        </a>
-        <h6 style="margin-block-start: 0.97em; margin-block-end: 0">
-          Freelance
-        </h6>
-        <a
-          href="https://www.fiverr.com/scott_r_palmer?public_mode=true"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/fiverr-logo.png"
-            alt="Fiverr Profile"
-            class="sideLogo" />
-        </a>
-        <h6 style="margin-block-start: 0.97em; margin-block-end: 0">Chat</h6>
-        <a
-          href="https://techguppy.slack.com/"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/slack-logo.png"
-            alt="Slack Profile"
-            class="sideLogo" />
-        </a>
-        <a
-          href="https://discord.com/users/826821172414513173"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Discord-logo.png"
-            alt="Discord Profile"
-            class="sideLogo" />
-        </a>
-        <h6 style="margin-block-start: 0.97em; margin-block-end: 0">
-          Social Network
-        </h6>
-        <a
-          href="https://www.facebook.com/palmer.sr"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Linkedin-logo.png"
-            alt="LinkedIn Profile"
-            class="sideLogo" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/scott-palmer-89549939/"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Facebook_logo_PNG9.png"
-            alt="Facebook Profile"
-            class="sideLogo" />
-        </a>
-        <a
-          href="https://twitter.com/palmersr10"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/Twitter-Logo.png"
-            alt="Twitter Profile"
-            class="sideLogo" />
-        </a>
-        <div class="twitter">
-          <a
-            href="https://twitter.com/twitter?ref_src=twsrc%5Etfw"
-            class="twitter-follow-button"
-            data-show-count="false"
-            >Follow @twitter</a
-          >
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"></script>
-          <a
-            href="https://twitter.com/intent/tweet?screen_name=twitter&ref_src=twsrc%5Etfw"
-            class="twitter-mention-button"
-            data-show-count="false"
-            >Tweet to @twitter</a
-          >
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"></script>
-        </div>
-        <h6 style="margin-block-start: 0.97em; margin-block-end: 0">Coding</h6>
-        <a
-          href="https://github.com/palmer81"
-          target="_blank"
-          rel="noopener noreferrer">
-          <img
-            src="./img/GitHub-Logo.png"
-            alt="Fiverr Profile"
-            class="sideLogo" />
-        </a>
-      </aside>
-      <div>
-        <div class="banner">
-          I am currently looking for work as a Software developer, Entry Level
-          Programmer, or Web Designer. I have knowledge with many lanuages and I
-          am proficent in Java, Javascript, HTML, CSS, PHP, Pearl, MySql, EDI
-          Mapping, C, and C++. Take a look at my
-          <a href="./resume/">resume</a>
-          as well as my projects for additional information.<br /><br />
-          I am also currently looking for work as freelance programmer. I will
-          do contacts for building web sites from scratch or refactor existing
-          projects. I am interested in any sort work such as fixing bugs,
-          refactoring, commentting and data entry. Please use my contacts found
-          on the left to reach out to me.
-        </div>
-        <h1>About</h1>
-        <article>
-          <div>
-            Projects below are a collection of links to active sites that are
-            made available from several different hosts. Provided is a list of
-            their logos which link to their site for hosting details. Each
-            provide services in payments by month and year also they all have an
-            interface to interact with thier service. Currently these are hosted
-            with a free subscription and installed are websites that can be
-            modified for any sort of demonstration.
-          </div>
-          <ul class="logos">
-            <li>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
               <a
-                href="https://www.apachefriends.org/"
-                target="_blank"
-                rel="noopener noreferrer">
-                <img
-                  src="./img/xampp-logo-ac950edf.svg"
-                  alt="XAMPP Apache + MariaDB + PHP + Perl"
-              /></a>
+                class="nav-link"
+                href="#top"
+                >Home</a
+              >
             </li>
-            <li>
+            <li class="nav-item">
               <a
-                href="https://pages.github.com/?(null)"
+                class="nav-link"
+                href="./resume/"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="top"
+      class="container-fuild"
+      style="padding: 70px 0 0 0">
+      <a
+        id="home"
+        href="https://techguppy.slack.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img
+          src="./img/cropped-Scott-Palmer.png"
+          alt="Picture of Scott Palmer (Me)"
+          class="profile" />
+      </a>
+      <h1 id="name">Scott Palmer</h1>
+      <main class="container-md">
+        <div>
+          <div
+            class="container-fuild object-fit-scale bg-primary text-light border rounded p-3">
+            I am currently looking for work as a Software developer, Entry Level
+            Programmer, or Web Designer. I have knowledge with many lanuages and
+            I am proficent in Java, Javascript, HTML, CSS, PHP, Pearl, MySql,
+            EDI Mapping, C, and C++. Take a look at my
+            <a
+              class="link-light"
+              href="./resume/"
+              >resume</a
+            >
+            as well as my projects for additional information.<br /><br />
+            I am also currently looking for work as freelance programmer. I will
+            do contacts for building web sites from scratch or refactor existing
+            projects. I am interested in any sort work such as fixing bugs,
+            refactoring, commentting and data entry. Please use my contacts
+            found on the left to reach out to me.
+          </div>
+          <h1 class="container-fuild">About</h1>
+          <article class="container-fuild">
+            <div>
+              Projects below are a collection of links to active sites that are
+              made available from several different hosts. Provided is a list of
+              their logos which link to their site for hosting details. Each
+              provide services in payments by month and year also they all have
+              an interface to interact with thier service. Currently these are
+              hosted with a free subscription and installed are websites that
+              can be modified for any sort of demonstration.
+            </div>
+            <ul class="logos">
+              <li>
+                <a
+                  href="https://www.apachefriends.org/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img
+                    src="./img/xampp-logo-ac950edf.svg"
+                    alt="XAMPP Apache + MariaDB + PHP + Perl"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://pages.github.com/?(null)"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img
+                    src="./img/Octicons-mark-github.svg"
+                    alt="GitHub Icon" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.000webhost.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./img/000webhost-logo.svg"
+                    alt="000webhost powered by Hostinger"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="http://hyperphp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./img/hyperphp-logo.png"
+                    alt="Grand Host Hosting Company Hyperphp.com"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://byet.host/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./img/byet-host-logo.png"
+                    alt="Byet Internet Services"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://wordpress.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./img/wordpress-logo.svg"
+                    alt="Wordpress powered"
+                /></a>
+              </li>
+            </ul>
+          </article>
+          <h1>Projects</h1>
+          <ul>
+            <li>
+              At Home Web Site:
+              <a
+                href="http://97.130.116.142:3000/"
                 target="_blank"
                 rel="noopener noreferrer">
-                <img
-                  src="./img/Octicons-mark-github.svg"
-                  alt="GitHub Icon" />
+                http://97.130.116.142:3000/
               </a>
             </li>
             <li>
+              Personal page:
               <a
-                href="https://www.000webhost.com/"
+                href="http://palmer81.github.io/palmer81/"
                 target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/000webhost-logo.svg"
-                  alt="000webhost powered by Hostinger"
-              /></a>
+                rel="noopener noreferrer">
+                palmer81.github.io/palmer81
+              </a>
             </li>
             <li>
-              <a
-                href="http://hyperphp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/hyperphp-logo.png"
-                  alt="Grand Host Hosting Company Hyperphp.com"
-              /></a>
+              Project page:
+              <a href="https://github.com/palmer81">
+                https://github.com/palmer81
+              </a>
             </li>
             <li>
+              GitHub page:
               <a
-                href="https://byet.host/"
+                href="https://palmer81.github.io/"
                 target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="./img/byet-host-logo.png"
-                  alt="Byet Internet Services"
-              /></a>
+                rel="noopener noreferrer">
+                palmer81.github.io
+              </a>
             </li>
             <li>
+              Blog for talk:
               <a
-                href="https://wordpress.com/"
+                href="https://darknight65.000webhostapp.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer">
+                darknight65.000webhostapp.com
+              </a>
+            </li>
+            <li>
+              Forum that's called TechGuppy:
+              <a
+                href="http://darknight65.hyperphp.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                darknight65.hyperphp.com
+              </a>
+            </li>
+            <li>
+              RSVP Tooling eComerce:
+              <a
+                href="http://darknight65.liveblog365.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                darknight65.liveblog365.com
+              </a>
+            </li>
+            <li>
+              Video Host:
+              <a
+                href="http://www.darknight65.byethost7.com/video/"
+                target="_blank"
+                rel="noopener noreferrer">
+                www.darknight65.byethost7.com/video
+              </a>
+            </li>
+            <li>
+              Static page in front of Video host:
+              <a
+                href="http://www.darknight65.byethost7.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                www.darknight65.byethost7.com
+              </a>
+            </li>
+            <li>
+              Blog:
+              <a
+                href="https://scottpalmercom.wordpress.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                scottpalmercom.wordpress.com
+              </a>
+            </li>
+            <li>
+              My
+              <a href="./resume/">Resume</a
+              ><a
+                href="./pdf/"
+                download="Resume-ScottPalmer.pdf"
                 ><img
-                  src="./img/wordpress-logo.svg"
-                  alt="Wordpress powered"
+                  src="./img/file-arrow-down.svg"
+                  alt="Download PDF"
+                  style="height: fit-content"
               /></a>
             </li>
           </ul>
-        </article>
-        <h1>Projects</h1>
-        <ul>
-          <li>
-            At Home Web Site:
-            <a
-              href="http://97.130.116.142:3000/"
-              target="_blank"
-              rel="noopener noreferrer">
-              http://97.130.116.142:3000/
-            </a>
-          </li>
-          <li>
-            Personal page:
-            <a
-              href="http://palmer81.github.io/palmer81/"
-              target="_blank"
-              rel="noopener noreferrer">
-              palmer81.github.io/palmer81
-            </a>
-          </li>
-          <li>
-            Project page:
-            <a href="https://github.com/palmer81">
-              https://github.com/palmer81
-            </a>
-          </li>
-          <li>
-            GitHub page:
-            <a
-              href="https://palmer81.github.io/"
-              target="_blank"
-              rel="noopener noreferrer">
-              palmer81.github.io
-            </a>
-          </li>
-          <li>
-            Blog for talk:
-            <a
-              href="https://darknight65.000webhostapp.com/"
-              target="_blank"
-              rel="noopener noreferrer">
-              darknight65.000webhostapp.com
-            </a>
-          </li>
-          <li>
-            Forum that's called TechGuppy:
-            <a
-              href="http://darknight65.hyperphp.com/"
-              target="_blank"
-              rel="noopener noreferrer">
-              darknight65.hyperphp.com
-            </a>
-          </li>
-          <li>
-            RSVP Tooling eComerce:
-            <a
-              href="http://darknight65.liveblog365.com/"
-              target="_blank"
-              rel="noopener noreferrer">
-              darknight65.liveblog365.com
-            </a>
-          </li>
-          <li>
-            Video Host:
-            <a
-              href="http://www.darknight65.byethost7.com/video/"
-              target="_blank"
-              rel="noopener noreferrer">
-              www.darknight65.byethost7.com/video
-            </a>
-          </li>
-          <li>
-            Static page in front of Video host:
-            <a
-              href="http://www.darknight65.byethost7.com/"
-              target="_blank"
-              rel="noopener noreferrer">
-              www.darknight65.byethost7.com
-            </a>
-          </li>
-          <li>
-            Blog:
-            <a
-              href="https://scottpalmercom.wordpress.com"
-              target="_blank"
-              rel="noopener noreferrer">
-              scottpalmercom.wordpress.com
-            </a>
-          </li>
-          <li>
-            My
-            <a href="./resume/">Resume</a
-            ><a
-              href="./pdf/"
-              download="Resume-ScottPalmer.pdf"
-              ><img
-                src="./img/file-arrow-down.svg"
-                alt="Download PDF"
-                style="height: fit-content"
-            /></a>
-          </li>
-        </ul>
-        <h6>
-          If you are interested in commuicating about a project or technology,
-          please contact me @
-          <a href="mailto:palmer.sr@gmail.com">palmer.sr@gmail.com</a>
-          or call me at 630-725-8112. I will provide a free demonstration as
-          soon as possible with request. I also will provide unlimited
-          iterations with request.
-        </h6>
+          <h6>
+            If you are interested in commuicating about a project or technology,
+            please contact me @
+            <a href="mailto:palmer.sr@gmail.com">palmer.sr@gmail.com</a>
+            or call me at 630-725-8112. I will provide a free demonstration as
+            soon as possible with request. I also will provide unlimited
+            iterations with request.
+          </h6>
+        </div>
+        <div
+          id="contact"
+          style="width: -webkit-fill-available"
+          class="container-fuild d-flex align-self-center flex-column justify-content-around flex-wrap">
+          <h5>Contact Me</h5>
+          <div
+            class="container-fuild d-flex flex-row justify-content-around flex-wrap">
+            <div class="d-flex flex-column flex-wrap">
+              <h6 style="margin-block-start: 0; margin-block-end: 0">Email</h6>
+              <a
+                href="mailto:palmer.sr@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Gmail-Logo.png"
+                  class="sideLogo"
+                  alt="Gmail" />
+              </a>
+              <a
+                href="mailto:palmer.sr@outlook.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Outlook-Logo.png"
+                  class="sideLogo"
+                  alt="Outlook" />
+              </a>
+              <a
+                href="mailto:spalms65@hotmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Hotmail-Logo.png"
+                  class="sideLogo"
+                  alt="Hotmail" />
+              </a>
+              <a
+                href="mailto:spalms65@siu.edu"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Southern-Illinois-Salukis-Logo.png"
+                  class="sideLogo"
+                  alt="Saluki SIU Carbondale, IL" />
+              </a>
+            </div>
+            <div class="d-flex flex-column">
+              <h6 style="margin-block-start: 0.97em; margin-block-end: 0">
+                Freelance
+              </h6>
+              <a
+                href="https://www.fiverr.com/scott_r_palmer?public_mode=true"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/fiverr-logo.png"
+                  alt="Fiverr Profile"
+                  class="sideLogo" />
+              </a>
+            </div>
+            <div class="d-flex flex-column">
+              <h6 style="margin-block-start: 0.97em; margin-block-end: 0">
+                Chat
+              </h6>
+              <a
+                href="https://techguppy.slack.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/slack-logo.png"
+                  alt="Slack Profile"
+                  class="sideLogo" />
+              </a>
+              <a
+                href="https://discord.com/users/826821172414513173"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Discord-logo.png"
+                  alt="Discord Profile"
+                  class="sideLogo" />
+              </a>
+            </div>
+            <div class="d-flex flex-column">
+              <h6 style="margin-block-start: 0.97em; margin-block-end: 0">
+                Social Network
+              </h6>
+              <a
+                href="https://www.facebook.com/palmer.sr"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Linkedin-logo.png"
+                  alt="LinkedIn Profile"
+                  class="sideLogo" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/scott-palmer-89549939/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Facebook_logo_PNG9.png"
+                  alt="Facebook Profile"
+                  class="sideLogo" />
+              </a>
+              <a
+                href="https://twitter.com/palmersr10"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/Twitter-Logo.png"
+                  alt="Twitter Profile"
+                  class="sideLogo" />
+              </a>
+            </div>
+            <div class="d-flex flex-column">
+              <h6 style="margin-block-start: 0.97em; margin-block-end: 0">
+                Coding
+              </h6>
+              <a
+                href="https://github.com/palmer81"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="./img/GitHub-Logo.png"
+                  alt="Fiverr Profile"
+                  class="sideLogo" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <a
+      href="#top"
+      class="link-dark">
+      <div
+        class="postition-absolute bottom-0 end-0"
+        style="
+          position: fixed;
+          bottom: 10px !important;
+          right: 16px !important;
+        ">
+        <svg
+          style="width: 50px; height: 50px"
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-up-square"
+          viewBox="0 0 16 16">
+          <path
+            d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+          <path
+            d="M3.544 10.705A.5.5 0 0 0 4 11h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5a.5.5 0 0 0-.082.537" />
+        </svg>
       </div>
-    </main>
+    </a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
   </body>
 </html>
